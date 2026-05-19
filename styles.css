@@ -88,7 +88,11 @@ main { position: relative; z-index: 1; padding: 120px 24px 80px; max-width: 1180
 .two-col { display: grid; grid-template-columns: minmax(0, 2fr) minmax(260px, 1fr); gap: 28px; align-items: start; }
 .card-list { display: grid; gap: 16px; }
 .card { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); padding: 18px; box-shadow: var(--shadow); }
-.card-head { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+.card-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; }
+.card h3 { margin: 0; }
+.card p { margin: 8px 0 0; }
+.card ul { margin: 10px 0 0; padding-left: 18px; }
+.card ul li { margin: 0; }
 .pill { background: rgba(124, 231, 255, 0.16); color: var(--accent); padding: 6px 10px; border-radius: 999px; border: 1px solid rgba(124, 231, 255, 0.35); font-size: 12px; font-weight: 700; }
 .pill.light { background: rgba(255, 255, 255, 0.08); color: var(--text); border-color: var(--border); }
 
@@ -97,12 +101,16 @@ main { position: relative; z-index: 1; padding: 120px 24px 80px; max-width: 1180
 
 .project-grid { display: grid; gap: 18px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
 .project-card { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); padding: 18px; box-shadow: var(--shadow); transition: transform 0.2s ease, border-color 0.2s ease, background 0.2s ease; }
+.project-card h3 { margin: 0 0 8px; }
+.project-card p { margin: 6px 0 0; }
+.project-card .tech { margin-top: 8px; }
 .project-card:hover { transform: translateY(-4px); border-color: rgba(124, 231, 255, 0.5); background: rgba(255, 255, 255, 0.06); }
 .project-meta { display: flex; gap: 8px; margin-bottom: 10px; }
 .tech { color: var(--muted); font-size: 14px; margin-top: 8px; }
 
 .sidebar .list { list-style: none; padding: 0; margin: 12px 0 0; color: var(--text); display: grid; gap: 10px; }
 .sidebar .compact { margin-bottom: 8px; }
+.sidebar .card ul { margin: 10px 0 0; padding-left: 18px; color: var(--muted); display: grid; gap: 6px; font-size: 14px; }
 
 .skills-grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
 .skill-card { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); padding: 16px; box-shadow: var(--shadow); }
@@ -111,9 +119,10 @@ main { position: relative; z-index: 1; padding: 120px 24px 80px; max-width: 1180
 .card.compact { padding: 14px; }
 
 .contact { text-align: left; }
-.contact-grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); margin-top: 20px; }
+.contact-grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); margin-top: 20px; align-items: start; }
 .contact-card { background: var(--panel); border: 1px solid var(--border); border-radius: var(--radius); padding: 16px; box-shadow: var(--shadow); }
-.contact-card a { display: block; margin-top: 6px; color: var(--accent); font-weight: 600; }
+.contact-card a { display: block; margin-top: 6px; color: var(--accent); font-weight: 600; overflow-wrap: anywhere; word-break: break-word; }
+.contact-card.wide { grid-column: span 2; }
 
 .footer { margin: 80px auto 32px; max-width: 1180px; padding: 0 24px; display: flex; justify-content: space-between; color: var(--muted); font-size: 14px; align-items: center; }
 .footer a { color: var(--accent); }
@@ -143,4 +152,5 @@ main { position: relative; z-index: 1; padding: 120px 24px 80px; max-width: 1180
   .nav.open { display: flex; }
   .nav-toggle { display: flex; }
   .site-header { position: sticky; top: 0; }
+  .contact-card.wide { grid-column: span 1; }
 }

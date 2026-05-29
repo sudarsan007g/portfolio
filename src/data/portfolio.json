@@ -1,0 +1,107 @@
+{
+  "personal": {
+    "name": "Sudarsan G",
+    "title": "AI & Data Science Engineer",
+    "tagline": "B.Tech graduate specializing in Machine Learning, IoT, and data-driven problem solving to build scalable and innovative software solutions."
+  },
+  "about": "A proactive and detail-oriented B.Tech graduate in Artificial Intelligence and Data Science, possessing strong skills in AI, machine learning, and rapid prototyping. Experienced in building scalable software solutions and analyzing data. I am eager to contribute my skills to innovative engineering projects and deliver impactful, high-quality software solutions in a fast-paced environment.",
+  "skills": [
+    "Python", "LLMs, RAG & Fine-tuning", "IoT (Arduino, ESP32)", "Computer Vision (OpenCV)", "UI/UX Design", "Hugging Face & Groq", "APIs & Flask", "Git & GitHub"
+  ],
+  "experience": [
+    {
+      "id": "exp-1",
+      "role": "AI & Data Science Intern",
+      "company": "DVein Innovations Pvt Ltd",
+      "year": "2025",
+      "description": "Worked on AI projects, applying data science techniques and building ML models with hands-on deployment experience."
+    },
+    {
+      "id": "exp-2",
+      "role": "Intern",
+      "company": "Arul Technologies",
+      "year": "2024",
+      "description": "Gained practical AI & Data Science experience; developed and implemented ML solutions, enhancing data analysis skills."
+    }
+  ],
+  "education": [
+    {
+      "id": "edu-1",
+      "degree": "B.Tech (Artificial Intelligence and Data Science)",
+      "institution": "Anand Institute of Higher Technology",
+      "year": "2022-2026",
+      "score": "CGPA: 7.63"
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj-1",
+      "title": "Stealthy Laptop Anti-Theft System",
+      "category": "IoT & Embedded",
+      "description": "Designed a tamper-resistant laptop anti-theft system using ESP32, GPS, and GSM yielding accurate positioning and real-time tracking with Firebase.",
+      "techStack": ["ESP32", "GPS", "GSM", "Firebase"]
+    },
+    {
+      "id": "proj-2",
+      "title": "Deepfake Detection",
+      "category": "AI / ML",
+      "description": "Built a deepfake detection system using CNN with EfficientNetB0, achieving 95.5% accuracy via a Flask-based web interface.",
+      "techStack": ["Python", "Flask", "CNN", "EfficientNetB0"]
+    },
+    {
+      "id": "proj-3",
+      "title": "Face Recognition Attendance",
+      "category": "AI / ML",
+      "description": "Developed an AI-based attendance system using Python and OpenCV, enabling real-time detection and automated logging.",
+      "techStack": ["Python", "OpenCV"]
+    },
+    {
+      "id": "proj-4",
+      "title": "AI Music Generation (GANs)",
+      "category": "AI / ML",
+      "description": "Trained GAN models on MIDI datasets to generate original instrumental music, improving coherence and diversity.",
+      "techStack": ["GANs", "MIDI", "Deep Learning"]
+    },
+    {
+      "id": "proj-5",
+      "title": "Smart Parking System",
+      "category": "IoT",
+      "description": "Real-time parking management system using Arduino, IR sensors, and LCD to view availability.",
+      "techStack": ["Arduino", "Sensors", "LCD"]
+    },
+    {
+      "id": "proj-6",
+      "title": "Text to Image Generator",
+      "category": "Generative AI",
+      "description": "Implemented a text-to-image generator using Groq acceleration to convert natural language prompts into images.",
+      "techStack": ["Groq", "LLMs", "Generative AI"]
+    }
+  ],
+  "services": [
+    {
+      "id": "svc-1",
+      "title": "Custom AI & ML Solutions",
+      "description": "Development of machine learning models, applied Generative AI, natural language processing (LMMs, RAG), and computer vision pipelines.",
+      "price": "Custom Quote"
+    },
+    {
+      "id": "svc-2",
+      "title": "IoT & Embedded Prototyping",
+      "description": "Hardware design and sensor integration using ESP32, Arduino, and building real-time dashboards with Firebase.",
+      "price": "Custom Quote"
+    },
+    {
+      "id": "svc-3",
+      "title": "Web Application Endpoints",
+      "description": "Creating robust REST APIs using Flask, UI/UX design wireframing, and deploying machine learning apps online.",
+      "price": "Custom Quote"
+    }
+  ],
+  "contact": {
+    "email": "sudarsangovindaraj8@gmail.com",
+    "phone": "+91 8220187985",
+    "github": "https://github.com/sudarsan007g",
+    "linkedin": "https://www.linkedin.com/in/sudarsan-govindaraj-186778246",
+    "location": "Chengalpattu, Tamil Nadu"
+  }
+}
